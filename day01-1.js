@@ -1,3 +1,5 @@
+// Puntuación: 3 estrellas
+
 function prepareGifts(gifts) {
   let result = []
   
