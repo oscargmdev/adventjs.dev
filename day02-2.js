@@ -1,3 +1,5 @@
+// Puntuación: 5 estrellas
+
 function createFrame(names) {
 
   let length = 0
