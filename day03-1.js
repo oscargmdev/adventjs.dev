@@ -1,4 +1,4 @@
-// Puntuación: 3
+// Puntuación: 3 estrellas
 
 function organizeInventory(inventory) {
   let result = {}
