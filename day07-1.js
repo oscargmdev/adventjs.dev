@@ -1,4 +1,4 @@
-// Puntuación: 1 estrella
+// Puntuación: 4 estrellas
 
 /** @param {string} packages with parentheses
  *  @returns {string} Fixed and sorted packages
