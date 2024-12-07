@@ -1,4 +1,4 @@
-// Timeout of 1000 ms
+// Puntuación: 1 estrella
 
 /** @param {string} packages with parentheses
  *  @returns {string} Fixed and sorted packages
@@ -8,11 +8,11 @@ function fixPackages(packages) {
   const LEFT = "("
   let work = packages
 
-  let foundR, foundL
+  let foundL, foundR
   while( true  ) {
-    foundR = work.indexOf(RIGHT)
-    if( foundR === -1 ) break
     foundL = work.lastIndexOf(LEFT)
+    if( foundL === -1 ) break
+    foundR = work.indexOf(RIGHT, foundL)
 
     work = work.substring(0,foundL) + [...work.substring(foundL+1,foundR)].reverse().join('') + work.substring(foundR+1)
   }
